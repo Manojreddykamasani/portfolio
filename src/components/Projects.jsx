@@ -66,12 +66,12 @@ const Projects = () => {
       githubLink: "https://github.com/Manojreddykamasani/ipl-prediction-with-login-system",
     },
     {
-      title: "Ajaika",
-      description: "A responsive frontend eCommerce website using a dummy API to display products and simulate cart functionality. Built to demonstrate modern UI design, routing, and state management — without login or payment features",
-      image: "/ajaika.png",
-      technologies: ["React", "Tailwind CSS","Dummy api"],
-      githubLink: "https://github.com/Manojreddykamasani/ajaika",
-      liveLink: "https://ajaika.vercel.app/",
+      title: "ParkSense",
+      description: "ParkSense is a smart AI-powered system designed to monitor parking spaces and detect violations such as unauthorized or illegal parking using computer vision and OCR (Optical Character Recognition). It leverages deep learning and image processing to recognize number plates and integrates with backend services to notify or log violations. Alongside the core detection system built using Python, OpenCV, and PaddleOCR (running on Jetson Nano), a full-stack web application was developed using Next.js for the frontend and Node.js with Express for the backend. Supabase is used for authentication and database storage, enabling users to view detected violations, manage vehicle records, and track parking activity through a clean, responsive interface.",
+      image: "/parksense.png",
+      technologies: ["Nextjs", "Nodejs","Computer Vision","OCR","Jetson Nano","OpenCV","PaddleOCR"],
+      githubLink: "https://github.com/Manojreddykamasani/ParkSense",
+      liveLink: "https://parksense-frontend.vercel.app/admin/login",
     },
   ]
 
