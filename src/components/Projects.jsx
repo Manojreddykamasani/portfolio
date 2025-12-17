@@ -51,6 +51,15 @@ const ProjectCard = ({ title, description, image, technologies, githubLink, live
 const Projects = () => {
   const projects = [
     {
+      title: "FinSight",
+      description: "**FinSight** is a full-stack, agent-based trading and financial analytics platform that leverages Python, machine learning, and autonomous decision agents to analyze market data, generate trading insights, and forecast trends through an interactive web dashboard.
+",
+      image: "/finsight.png",
+      technologies:  ["Next.js","Tailwind CSS","MongoDB","FastAPI","Node.js","Express.js","GeminiApi],
+      githubLink: "https://github.com/Manojreddykamasani/finsight",
+      liveLink:"https://finsight-jade.vercel.app/",
+    },
+    {
       title: "CodeForge",
       description: "An interactive coding platform designed to help users master data structures and algorithms through curated challenges, real-time feedback, and progress tracking. Built with a modern tech stack to deliver a seamless and responsive learning experience",
       image: "/codeforge.png",
