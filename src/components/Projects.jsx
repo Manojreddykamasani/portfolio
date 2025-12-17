@@ -50,14 +50,7 @@ const ProjectCard = ({ title, description, image, technologies, githubLink, live
 
 const Projects = () => {
   const projects = [
-    {
-      title: "FinSight",
-      description: "**FinSight** is a full-stack, agent-based trading and financial analytics platform that leverages Python, machine learning, and autonomous decision agents to analyze market data, generate trading insights, and forecast trends through an interactive web dashboard.",
-      image: "/finsight.png",
-      technologies:  ["Next.js","Tailwind CSS","MongoDB","FastAPI","Node.js","Express.js","GeminiApi],
-      githubLink: "https://github.com/Manojreddykamasani/finsight",
-      liveLink:"https://finsight-jade.vercel.app/",
-    },
+
     {
       title: "CodeForge",
       description: "An interactive coding platform designed to help users master data structures and algorithms through curated challenges, real-time feedback, and progress tracking. Built with a modern tech stack to deliver a seamless and responsive learning experience",
@@ -67,13 +60,6 @@ const Projects = () => {
       liveLink:"https://codeforge-012.netlify.app/",
     },
     {
-      title: "PrediX",
-      description: "Developed a machine learning-based web application that predicts the outcome of IPL cricket matches. Leveraged historical match data and key player statistics to train predictive models. The project features an interactive UI to input match conditions and display predicted results. Built with a full-stack approach using React for frontend and Flask/Node.js for backend APIs",
-      image: "/predix.png",
-      technologies: ["React", "Node.js", "MongoDB", "Express","Flask","Machine Learning","Deep Learning"],
-      githubLink: "https://github.com/Manojreddykamasani/ipl-prediction-with-login-system",
-    },
-    {
       title: "ParkSense",
       description: "ParkSense is a smart AI-powered system designed to monitor parking spaces and detect violations such as unauthorized or illegal parking using computer vision and OCR (Optical Character Recognition). It leverages deep learning and image processing to recognize number plates and integrates with backend services to notify or log violations. Alongside the core detection system built using Python, OpenCV, and PaddleOCR (running on Jetson Nano), a full-stack web application was developed using Next.js for the frontend and Node.js with Express for the backend. Supabase is used for authentication and database storage, enabling users to view detected violations, manage vehicle records, and track parking activity through a clean, responsive interface.",
       image: "/parksense.png",
@@ -81,6 +67,21 @@ const Projects = () => {
       githubLink: "https://github.com/Manojreddykamasani/ParkSense",
       liveLink: "https://parksense-frontend.vercel.app/admin/login",
     },
+    {
+      title: "FinSight",
+      description: "**FinSight** is a full-stack, agent-based trading and financial analytics platform that leverages Python, machine learning, and autonomous decision agents to analyze market data, generate trading insights, and forecast trends through an interactive web dashboard.",
+      image: "/finsight.png",
+      technologies:  ["Next.js","Tailwind CSS","MongoDB","FastAPI","Node.js","Express.js","GeminiApi"],
+      githubLink: "https://github.com/Manojreddykamasani/finsight",
+      liveLink:"https://finsight-jade.vercel.app/",
+    },
+    {
+      title: "PrediX",
+      description: "Developed a machine learning-based web application that predicts the outcome of IPL cricket matches. Leveraged historical match data and key player statistics to train predictive models. The project features an interactive UI to input match conditions and display predicted results. Built with a full-stack approach using React for frontend and Flask/Node.js for backend APIs",
+      image: "/predix.png",
+      technologies: ["React", "Node.js", "MongoDB", "Express","Flask","Machine Learning","Deep Learning"],
+      githubLink: "https://github.com/Manojreddykamasani/ipl-prediction-with-login-system",
+    }
   ]
 
   return (
