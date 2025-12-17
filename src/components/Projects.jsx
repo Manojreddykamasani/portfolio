@@ -52,8 +52,7 @@ const Projects = () => {
   const projects = [
     {
       title: "FinSight",
-      description: "**FinSight** is a full-stack, agent-based trading and financial analytics platform that leverages Python, machine learning, and autonomous decision agents to analyze market data, generate trading insights, and forecast trends through an interactive web dashboard.
-",
+      description: "**FinSight** is a full-stack, agent-based trading and financial analytics platform that leverages Python, machine learning, and autonomous decision agents to analyze market data, generate trading insights, and forecast trends through an interactive web dashboard.",
       image: "/finsight.png",
       technologies:  ["Next.js","Tailwind CSS","MongoDB","FastAPI","Node.js","Express.js","GeminiApi],
       githubLink: "https://github.com/Manojreddykamasani/finsight",
